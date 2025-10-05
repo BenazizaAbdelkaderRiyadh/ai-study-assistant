@@ -1,4 +1,3 @@
-// FIX: Removed self-imports for `Flashcard` and `QuizQuestion` which were causing declaration conflicts.
 
 export interface Flashcard {
   question: string;
