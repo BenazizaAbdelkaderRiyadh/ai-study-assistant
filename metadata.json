@@ -1,0 +1,5 @@
+{
+  "name": "AI Study Assistant",
+  "description": "An AI-powered study assistant that generates summaries, flashcards, and quizzes from your notes. Paste your text, and let the AI create personalized learning materials to help you study smarter.",
+  "requestFramePermissions": []
+}
