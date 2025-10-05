@@ -1,7 +1,6 @@
 declare const pdfjsLib: any;
 
 export const extractTextFromPdf = async (file: File): Promise<string> => {
-  // Set the worker source, essential for pdf.js to work in a browser environment
   pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.worker.min.mjs`;
 
   const arrayBuffer = await file.arrayBuffer();
