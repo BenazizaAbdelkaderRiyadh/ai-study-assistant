@@ -48,7 +48,7 @@ const FlashcardView: React.FC<FlashcardViewProps> = ({ flashcards }) => {
             <div className="h-8"></div>
           </div>
           
-          {/* Card Back */}
+          {}
           <div className="absolute w-full h-full bg-gradient-to-br from-cyan-500 to-teal-500 rounded-xl flex flex-col justify-between p-6 text-center shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)]">
              <div className="flex items-center gap-2 text-white/80">
                 <SparklesIcon className="w-5 h-5" />
