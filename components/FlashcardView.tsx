@@ -38,7 +38,7 @@ const FlashcardView: React.FC<FlashcardViewProps> = ({ flashcards }) => {
           onClick={() => setIsFlipped(!isFlipped)}
           aria-live="polite"
         >
-          {/* Card Front */}
+          {}
           <div className="absolute w-full h-full bg-white rounded-xl flex flex-col justify-between p-6 text-center shadow-lg [backface-visibility:hidden] border border-slate-200">
             <div className="flex items-center gap-2 text-cyan-600">
                 <HelpCircleIcon className="w-5 h-5" />
