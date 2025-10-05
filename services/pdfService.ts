@@ -11,7 +11,7 @@ export const extractTextFromPdf = async (file: File): Promise<string> => {
     const page = await pdf.getPage(i);
     const textContent = await page.getTextContent();
     const pageText = textContent.items.map((item: any) => item.str).join(' ');
-    fullText += pageText + '\n\n'; // Add newlines between pages for clarity
+    fullText += pageText + '\n\n'; 
   }
 
   return fullText.trim();
