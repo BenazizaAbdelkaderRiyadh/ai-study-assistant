@@ -1,4 +1,3 @@
-// Since pdf.js is loaded from a CDN, we declare its type for TypeScript
 declare const pdfjsLib: any;
 
 export const extractTextFromPdf = async (file: File): Promise<string> => {
