@@ -101,7 +101,6 @@ export const generateStudyAids = async (text: string): Promise<StudyAids> => {
   const jsonResponse = response.text.trim();
   const parsed = JSON.parse(jsonResponse);
 
-  // Basic validation to ensure the structure is as expected.
   if (!parsed.summary || !Array.isArray(parsed.flashcards) || !Array.isArray(parsed.quiz) || !Array.isArray(parsed.nextSteps)) {
     throw new Error("Invalid response structure from AI.");
   }
